@@ -1,0 +1,253 @@
+ul.menu {
+  color: black;
+  clear: both;
+  float: left;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+    margin: 0px;
+    background-color:#33691E;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: black;
+    border: 2px solid #4CAF50; 
+}
+
+
+.page-nav {
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0px;
+    border: 1px solid black;
+    position: relative;
+    color: black;
+}
+
+.page-nav h1 {
+    margin: 20px;
+}
+.foto_fondo{
+    width: 700px;
+    height: 300px;
+
+}
+.button-checkout {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA; 
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.button-checkout:hover {
+    background-color: #008CBA; 
+    color: white;
+}
+.precios{
+    margin-left: 10px;
+    color:white;
+    width: 50px;
+    margin-top: 50px;
+}
+
+.precio2{
+    color: black;
+}
+.precio{
+    color: black;
+}
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image:url(file:///home/martin/Coderhouse/menu.jpeg);
+    margin: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px; 
+}
+.nombreproducto{
+    color:black;
+}
+.product-container {
+    margin: 20px;
+    margin-left: 200px;
+    padding: 70px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); 
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.product-container img {
+    width: 300px;
+}
+
+.product-container h1 {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.button-add {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; 
+    transition-duration: 0.4s;
+}
+  
+.button-add:hover {
+    background-color: #4CAF50; 
+    color: lightblue
+
+}
+
+.brand{
+    font-size: 20px;
+    color: #4CAF50;
+
+}
+
+.form{
+    margin-left: 1400px;
+    margin-bottom: 10px;
+}
+.saludar{
+    color: #fff;
+}
+.titulo{
+    padding-left: 720px;
+    font-size: 100px;
+    color: white;
+    height: 100px;
+    
+}
+.foto_menu{
+    width: 700px;
+    height: 300px;
+    margin-left: 620px;
+}
+
+.brand{
+    color: whitesmoke;
+}
+.Facebook{
+    color:whitesmoke;
+}
+.Twitter{
+    color:whitesmoke;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 80px;
+    margin-left: 0px;
+}
+.enlace{
+    
+    padding: 20px 50px;
+}
+nav ul{
+    
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background:black;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+section{
+    background: url(fondo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
