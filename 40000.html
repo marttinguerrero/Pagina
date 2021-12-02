@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    
+    <div  class ="saludar" id = "saludos"></div>
+    <div class="page-nav">
+        <h1 class = "titulo">PadelStore</h1>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <a href="#" class="enlace">
+                <img src="logo.png" alt="" class="logo">
+            </a>
+            <ul class="menu2">
+                <li><a href="TiendaPadel.html">Inicio</a></li>
+                <li><a href="marcas.html">Marcas</a></li>
+                <li><a href="Ubicacion.html">Ubicación</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <button id="checkout" class="button-checkout" >Pagar 💵</button>
+    </div>
+    <nav >
+        <h1 class="precios">Precio Maximo</h1>
+        <ul class = "precios">
+            <li class="precio"><a href="marcas.html">$50000</a></li>
+            <li class="precio"><a href="40000.html">$40000</a></li>
+            <li class="precio"><a href="30000.html">$30000</a></li>
+            <li class="precio"><a href="15000.html">$15000</a></li>
+        </ul>
+        <h1 class="precios">Precio Minimo</h1>
+        <ul class = "precios">
+            <li class="precio"><a href="30000min.html">$30000</a></li>
+            <li class="precio"><a href="20000min.html">$20000</a></li>
+            
+        </ul>
+
+    </nav>
+    <div class="page-content">
+        
+        <div class="product-container">
+            <h3 class = "nombreproducto">Adidas Precision</h3>
+            <img src="Precision.jpeg" />
+            <h1 class = "precio">$20000</h1>
+            <button class="button-add" id = "product1">Agregar🛒</button>
+            <button class ="button-delete"id = deleteproduct1>Vaciar carrito🗑️</button>
+            
+        </div>
+        <div class="product-container">
+            <h3 class = "nombreproducto">Adidas Supernova</h3>
+            <img src="Supernova.jpeg" />
+            <h1 class = "precio">$40000</h1>
+            <button class="button-add" id = "product2">Agregar🛒</button>
+            <button class ="button-delete" id = deleteproduct2>Vaciar carrito🗑️</button>
+        </div>
+
+
+        <div class="product-container">
+            <h3 class = "nombreproducto">Dunlop Rapidpower</h3>
+            <img src="rapidpower.jpeg" />
+            <h1 class = "precio">$25000</h1>
+            <button class="button-add" id = "product4" >Agregar🛒</button>
+            <button class ="button-delete"id = deleteproduct4>Vaciar carrito🗑️</button>
+        </div>
+        
+        <div class="product-container">
+            <h3 class = "nombreproducto">Dunlop Rocket</h3>
+            <img src="rocket.jpeg" />
+            <h1 class = "precio">$10000</h1>
+            <button class="button-add" id = "product5" >Agregar🛒</button>
+            <button class ="button-delete"id = deleteproduct5>Vaciar carrito🗑️</button>
+        </div>
+
+        <div class="product-container">
+            <h3 class = "nombreproducto">Vairo Razor</h3>
+            <img src="Razor.jpeg" />
+            <h1 class = "precio">$15000</h1>
+            <button class="button-add" id = "product6">Agregar🛒</button>
+            <button class ="button-delete"id = deleteproduct6>Vaciar carrito🗑️</button>
+           
+        </div>
+    
+    </div>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">PadelStore</h2>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media.icon">
+                    <i class='Facebook' >Facebook</i><img src="https://external-content.duckduckgo.com/ip3/www.facebook.com.ico">
+                </a>
+            </div>
+        </div>
+    </footer>
+<script src="tiendaPadel.js"></script>
+</body>
+</html>
+
